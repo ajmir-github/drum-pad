@@ -1,7 +1,7 @@
 import "./App.css";
 import KeyPad from "./KeyPad";
 import useKeyListener from "./utils/useKeyListener";
-import { KEYS, KITS } from "./constants";
+import { KITS } from "./constants";
 import { useState } from "react";
 
 function play(path: string) {
