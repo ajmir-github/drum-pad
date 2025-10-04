@@ -60,20 +60,20 @@ export default function KeyPad({
         symbol="7"
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-orange-400"
+        className="bg-orange-400 row-span-2"
       />
       <Pad
         symbol="8"
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-green-400"
+        className="bg-green-400 row-span-2"
       />
 
       <Pad
         symbol="9"
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-orange-500"
+        className="bg-orange-500 row-span-2"
       />
 
       {/* row 3 */}
@@ -82,19 +82,19 @@ export default function KeyPad({
         symbol="4"
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-yellow-600"
+        className="bg-yellow-600 row-span-2"
       />
       <Pad
         symbol="5"
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-purple-400"
+        className="bg-purple-400 row-span-2"
       />
       <Pad
         symbol="6"
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-purple-500"
+        className="bg-purple-500 row-span-2"
       />
 
       {/* row 2 */}
@@ -102,20 +102,20 @@ export default function KeyPad({
         symbol="1"
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-yellow-500"
+        className="bg-yellow-500 row-span-2"
       />
       <Pad
         symbol="2"
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-blue-500"
+        className="bg-blue-500 row-span-2"
       />
 
       <Pad
         symbol="3"
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-purple-600"
+        className="bg-purple-600 row-span-2"
       />
 
       {/* row 1 */}
@@ -123,13 +123,13 @@ export default function KeyPad({
         symbol="0"
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-red-500 col-span-2"
+        className="bg-red-500 col-span-2 row-span-2"
       />
       <Pad
         symbol="."
         pressedKeys={pressedKeys}
         handle={handleKeyPress}
-        className="bg-sky-500"
+        className="bg-sky-500 row-span-2"
       />
     </div>
   );
